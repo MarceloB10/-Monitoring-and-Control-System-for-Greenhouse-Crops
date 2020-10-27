@@ -1,2 +1,3 @@
-Documents: 
-Read the "views/page/docs.html" or "html/docs.html"
+# Monitoring and Control System for Greenhouse Crops
+
+This work proposes a system to manage the variables of cultivation in greenhouses. This system can control and monitor crops using IoT devices; it analyzes the data from sensors and makes predictions using artificial intelligence.  The system uses several sensors and actuators to measure environmental variables and make decisions using the acquired data.  These measurements and the user interactions  travel  through  a  broker  employing  ESP8266  NodeMCU  modules connected trough Wi-Fi using the MQTT protocol for data transmission.  The system also consists of a web application that connects to the broker to send signals to the actuators and receive data from the sensors.  This web application reads, stores, and displays real-time data in a graphical user interface.  This tool includes an LSTM recurrent neural network and a Transformer Model to obtain relevant predictions based on the data collected over time.
